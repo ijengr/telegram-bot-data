@@ -1,0 +1,21 @@
+# Konfigurasi untuk Replit
+run = "python main.py"
+language = "python3"
+entrypoint = "main.py"
+
+[packager]
+language = "python3"
+
+[packager.features]
+packageSearch = true
+guessImports = true
+enabledForHosting = false
+
+[unitTest]
+language = "python3"
+
+[languages.python3]
+pattern = "**/*.py"
+
+[env]
+VIRTUAL_ENV = "/home/runner/${REPL_SLUG}/venv"
